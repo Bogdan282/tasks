@@ -1,4 +1,4 @@
-package lec14;
+package main;
 
 import java.util.Scanner;
 
