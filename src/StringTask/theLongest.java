@@ -1,4 +1,4 @@
-package main;
+package StringTask;
 
 import java.util.Scanner;
 
