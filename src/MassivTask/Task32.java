@@ -25,6 +25,6 @@ public class Task32 {
             sumDiag += numArr[i][diagPos];
             diagPos++;
         }
-        System.out.println("Сумма элементов главной диагонали " + sumDiag);
+        System.out.println("Сумма элементов главной диагонали: " + sumDiag);
     }
 }
