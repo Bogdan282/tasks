@@ -15,7 +15,6 @@ public class bubleSort {
     }
     public static int[] bubleSort(int test[]) {
         int lenght = test.length;
-
         while(lenght != 0) {
             int MaxElement = 0;
             for (int i = 1; i < lenght; i++) {
