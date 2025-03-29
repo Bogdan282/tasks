@@ -14,18 +14,20 @@ public class bubleSort {
         }
     }
     public static int[] bubleSort(int test[]) {
-        int lenght = test.length;
-        while(lenght != 0) {
-            int MaxElement = 0;
-            for (int i = 1; i < lenght; i++) {
-                if (test[i - 1] > test[i]) {
+        int length = test.length;
+
+        while(length != 0) {
+            int maxElement = 0;
+            for(int i = 1; i < length; i++) {
+                if(test[i] < test[i - 1]) {
                     int temp = test[i - 1];
-                    test[i -1] = test[i];
+                    test[i - 1] = test[i];
                     test[i] = temp;
-                    MaxElement = i;
+
+                    maxElement = i;
                 }
             }
-            lenght = MaxElement;
+            length = maxElement;
         }
         return test;
     }
