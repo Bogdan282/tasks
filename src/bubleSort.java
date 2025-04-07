@@ -15,15 +15,13 @@ public class bubleSort {
     }
     public static int[] bubleSort(int test[]) {
         int length = test.length;
-
         while(length != 0) {
             int maxElement = 0;
             for(int i = 1; i < length; i++) {
-                if(test[i] < test[i - 1]) {
+                if(test[i - 1] > test[i]){
                     int temp = test[i - 1];
                     test[i - 1] = test[i];
                     test[i] = temp;
-
                     maxElement = i;
                 }
             }
