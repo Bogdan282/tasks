@@ -1,0 +1,39 @@
+1. Создай класс Animal с методом makeSound(). Наследники: Dog и Cat. В main() создай массив Animal[] и вызови makeSound().
+
+2. Добавь метод getType() в Animal и переопредели его в Dog и Cat. Выводи тип + звук в цикле.
+
+3. Сделай абстрактный класс Shape с методом draw(). Реализуй классы Circle и Square.
+
+4. Сделай интерфейс Playable с методом play(). Реализуй Song, Podcast, Radio.
+
+5. Создай интерфейс InputDevice с методом input(). Реализуй Mouse, Keyboard, Touchscreen.
+
+6. Интерфейс Notification с методом notifyUser(). Реализуй EmailNotification и PushNotification.
+
+7. Абстрактный класс Employee с методом work(). Реализуй Manager и Developer.
+
+8. Интерфейс Exportable с методом export(). Реализуй PDF и Excel.
+
+9. Класс Vehicle с методом move(). Реализуй Car и Bicycle. Добавь метод getType().
+
+10. Интерфейс Flyable. Реализации: Bird и Plane. Вызови fly() через массив.
+
+11. Класс MessageSender с методом send(). Наследники: EmailSender и SmsSender.
+
+12. Интерфейс Device с методом turnOn(). Реализуй Phone и Laptop.
+
+13. Базовый класс Account с методом withdraw(). Реализации: Savings и Credit.
+
+14. Интерфейс RemoteControl с методом pressButton(). Реализуй TVRemote и ACRemote.
+
+15. Класс File с методом open(). Реализации: TextFile и ImageFile.
+
+16. Интерфейс Sound с методом playSound(). Реализуй Bell и Horn.
+
+17. Интерфейс PaymentMethod с методом pay(). Реализации: Card и Cash.
+
+18. Абстрактный класс GameCharacter с методом attack(). Реализуй Warrior и Mage.
+
+19. Класс Pet с greetOwner(). Реализуй Dog и Parrot. Используй массив Pet[].
+
+20. Класс Shape с методом area(). Реализуй Triangle и Ellipse. Используй массив и посчитай сумму всех площадей.

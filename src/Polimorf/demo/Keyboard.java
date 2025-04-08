@@ -1,4 +1,4 @@
-package Polimorf;
+package Polimorf.demo;
 
 public class Keyboard extends InputDevice{
     @Override
