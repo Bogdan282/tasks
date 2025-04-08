@@ -19,7 +19,7 @@ public class bubleSort {
         while(length != 0) {
             int maxElement = 0;
             for(int i = 1; i < length; i++) {
-                if (test[i - 1] > test[i]) {
+                if(test[i] < test[i - 1]) {
                     int temp = test[i - 1];
                     test[i - 1] = test[i];
                     test[i] = temp;
