@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task25 {
     //25. Напишите программу, которая находит сумму всех элементов двумерного массива.

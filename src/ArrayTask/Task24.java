@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task24 {
     //24. Напишите программу, которая создает двумерный массив и выводит его на экран.

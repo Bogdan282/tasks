@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task8 {
     //8. Напишите программу, которая инвертирует массив (переворачивает порядок элементов).

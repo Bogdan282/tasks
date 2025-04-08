@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task4 {
     //4. Напишите программу, которая находит максимальный элемент в массиве целых чисел.

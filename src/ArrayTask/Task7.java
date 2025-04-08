@@ -1,7 +1,7 @@
-package MassivTask;
+package ArrayTask;
 
-public class Task6 {
-    //6. Напишите программу, которая сортирует массив целых чисел по возрастанию.
+public class Task7 {
+    //7. Напишите программу, которая сортирует массив целых чисел по убыванию.
     public static void main(String[] args) {
         int[] numArr = new int[10];
         for(int i = 0; i < numArr.length; i++) {
@@ -19,17 +19,16 @@ public class Task6 {
         }
     }
     public static int[] midArr(int[] numArr) {
-        int[] midArr = numArr;
-        for(int i = 1; i < midArr.length; i++) {
-            int key = midArr[i];
+        for(int i = 1; i < numArr.length; i++) {
+            int key = numArr[i];
             int j = i - 1;
 
-            while (j >= 0 && midArr[j] > key) {
-                midArr[j + 1] = midArr[j];
+            while (j >= 0 && numArr[j] < key) {
+                numArr[j + 1] = numArr[j];
                 j--;
             }
-            midArr[j + 1] = key;
+            numArr[j + 1] = key;
         }
-        return midArr;
+        return numArr;
     }
 }

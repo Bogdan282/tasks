@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task31 {
     //31. Напишите программу, которая меняет местами два ряда в двумерном массиве.

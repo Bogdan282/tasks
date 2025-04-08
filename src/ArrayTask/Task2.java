@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task2 {
     //2. Напишите программу, которая находит сумму всех элементов массива целых чисел.

@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task1 {
     //1. Напишите программу, которая создает массив из 10 целых чисел и выводит его на экран.

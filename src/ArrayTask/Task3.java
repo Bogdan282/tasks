@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task3 {
     //3. Напишите программу, которая находит среднее значение элементов массива целых чисел.

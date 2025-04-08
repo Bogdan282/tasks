@@ -1,4 +1,4 @@
-package Polimorf.demo;
+package Polymorfic.demo;
 
 public class Mouse extends InputDevice{
     @Override

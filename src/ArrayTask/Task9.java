@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task9 {
     //9. Напишите программу, которая проверяет, все ли элементы массива одинаковы.

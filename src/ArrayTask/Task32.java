@@ -1,4 +1,4 @@
-package MassivTask;
+package ArrayTask;
 
 public class Task32 {
     //32. Напишите программу, которая находит сумму элементов главной диагонали двумерного массива.
